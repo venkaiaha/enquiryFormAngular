@@ -1,0 +1,22 @@
+.menu-spacer{
+    flex: 1 1 auto;
+}
+.green{
+    // background-color: #4CAF50;
+  color: rgb(29, 25, 25);
+  border: 2px solid #4CAF50;
+
+}
+button{
+    border-radius: 250px;
+}
+h1{
+    margin-left: 33%;
+    text-shadow: 1px 1px;
+    color: cornflowerblue;
+}
+mat-toolbar{
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}

@@ -1,0 +1,56 @@
+<div class="applyOnMainDiv container" *ngIf='row_data'>
+
+    <mat-card  class="mat-elevation-z8">
+        <mat-card class="container mat-elevation-z8" style="text-align: center">
+           <h4>Welcome {{row_data['fullname']}}</h4> 
+        </mat-card><br>
+        <table class="table table-bordered">
+            <tr class="center">
+                <td>Full Name</td>
+                <td>{{row_data['fullname']}}</td>
+            </tr>
+            <tr class="center">
+                <td>Father/Spouse </td>
+                <td>{{row_data['fathersname']}}</td>
+            </tr>
+            <tr class="center">
+                <td>course</td>
+                <td>{{row_data['course']}}</td>
+            </tr>
+            <tr class="center">
+                <td>Date of birth</td>
+                <td>{{row_data['dob']|date}}</td>
+            </tr>
+            <tr class="center">
+                <td>Date of Joining </td>
+                <td>{{row_data['joiningdate']|date}}</td>
+            </tr>
+            <tr class="center">
+                <td>Mobile</td>
+                <td>{{row_data['mobile']}}</td>
+            </tr>
+
+
+            <tr class="center">
+                <td>Qualification</td>
+                <td>{{row_data['qualification']}}</td>
+            </tr>
+            <tr class="center">
+                <td>Email</td>
+                <td>{{row_data['email']}}</td>
+            </tr>
+            <tr class="center">
+                <td>experience</td>
+                <td>{{row_data['experince']}}</td>
+
+            </tr>
+            <tr class="center">
+                <td>address</td>
+                <td>{{row_data['address']['city']}}</td>
+            </tr>
+
+
+        </table>
+
+    </mat-card>
+</div>

@@ -1,0 +1,17 @@
+<div align='center' *ngIf='pieChartData' class="container mat-elevation-z4" style="width: 80%" >
+    <div style="width: 83%" >
+      <h2 style="text-align: center">No of Students interested in !!</h2>
+      <div class="chart">
+        <canvas baseChart
+          [data]="pieChartData"
+          [labels]="pieChartLabels"
+          [chartType]="pieChartType"
+          [options]="pieChartOptions"
+          [plugins]="pieChartPlugins"
+          [colors]="pieChartColors"
+          [legend]="pieChartLegend">
+        </canvas>
+      </div>
+    </div>
+  </div>
+  
